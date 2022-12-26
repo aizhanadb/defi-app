@@ -16,7 +16,7 @@ const DailyStats = () => {
             <span className="metric-value">$100M</span>
         </div>
         <div className="metric-container">
-            <span className="metric-title">Ttal trades</span>
+            <span className="metric-title">Total trades</span>
             <span className="metric-value">$9.123M</span>
         </div>
         <div className="metric-container">

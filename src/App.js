@@ -8,6 +8,10 @@ import { Card } from './components/Card';
 import insurance1 from './assets/insurance1.svg';
 import wallet1 from './assets/wallet1.svg';
 import profit1 from './assets/profit1.svg';
+import SocialMediaPromotion from './components/SocialMediaPromotion';
+import DevSection from './components/DevSection';
+import BlogSection from './components/BlogSection';
+import Footer from './components/Footer';
 
 function App() {
   const features = [
@@ -50,7 +54,10 @@ function App() {
           })
         }
        </div>
-
+       <DevSection/>
+       <SocialMediaPromotion/>
+       <BlogSection/>
+       <Footer/>
     </div>
   );
 }
