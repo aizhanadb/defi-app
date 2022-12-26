@@ -2,7 +2,7 @@ import React from 'react'
 
 const DailyStats = () => {
   return (
-    <div className='daily-stats-container gradient-background'>
+    <div className='daily-stats-container gradient-border'>
         <div className="metric-container">
             <span className="metric-title">Tok Swap Price</span>
             <span className="metric-value">$0.11 USD</span>

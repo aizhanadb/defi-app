@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -15,6 +15,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 
 .header-container {
   display: flex;
@@ -314,4 +315,83 @@ p{
 
  .feature-container .feature-description .feature-description-paragraph {
   line-height: 28px;;
+ }
+
+ .gradient-border {
+  background: linear-gradient(#131330 0 0) padding-box, linear-gradient(to right, transparent, #30bddc) border-box;
+  border-radius: 10px; 
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border: double 1px transparent;
+}
+
+ .daily-stats-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  color: #9f9fc8;
+  width: 75%;
+  background-color: #131330;
+  border-radius: 10px;
+  font-weight: 500;
+  line-height: 43px;
+  margin-top: 30px;
+ }
+
+ @media  only screen and (max-width: 768px) {
+  .daily-stats-container {
+    flex-direction: column;
+  }
+ }
+
+
+ .daily-stats-container .metric-container {
+  display: flex;
+  padding: 18px;
+  color: #ffff;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+ }
+ 
+ .daily-stats-container .metric-container .metric-title {
+  color: #9f9fc8;
+  font-weight: bold;
+  font-size: 18px;
+ }
+
+ .daily-stats-container .metric-container .metric-value {
+  align-self: flex-end;
+  font-size: 36px;
+  font-weight: medium;
+ }
+
+ .card-container {
+  padding: 20px;
+  background-color: #131330;
+  color: #9f9fc8;
+  border-radius: 10px;
+  background: linear-gradient(#131330 0 0) padding-box, linear-gradient(to right, transparent, #30bddc) border-box;
+  border-radius: 10px; 
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border: double 1px transparent;
+ }
+
+ .card-container h1 {
+  color: #ffff;
+ }
+
+ .features-list-container {
+  display: grid;
+  width: 75%;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+ }
+
+ .features-list-title  {
+  margin-bottom: 10px;
+  text-align: left;
+  width: 75%;
  }
